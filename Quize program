@@ -1,0 +1,24 @@
+import random
+
+# Define a list of 30 questions and their corresponding answers.
+questions = [
+    {"question": "What is the capital of France?", "answer": "Paris"},
+    {"question": "How many continents are there on Earth?", "answer": "7"},
+    # Add more questions here
+]
+
+# Function to select a random question and get user input for an answer.
+def random_quiz_question():
+    question = random.choice(questions)
+    print(question["question"])
+    user_answer = input("Your answer: ").strip().lower()
+
+    if user_answer == question["answer"].lower():
+        print("Correct!")
+    else:
+        print(f"Wrong. The correct answer is {question['answer']}.")
+
+# Main quiz loop
+while True:
+    input("Press Enter to start a new quiz or Ctrl+C to quit...")
+    random_quiz_question()
