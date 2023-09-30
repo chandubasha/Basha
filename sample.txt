@@ -1,0 +1,3 @@
+A software tool is a system program that interfaces a program with the entity generating its input data or interfaces the results of a program with the entity consuming them. It is a set of computer programs used by developers to create, maintain, debug, or support other applications and programs.
+
+It is now recognized that software tools can assist in all activities of all phases of the software life cycle, including management and quality-assurance activities. Thus a comprehensive set would address such issues as requirements specification, design, validation, configuration control, and project management. Such tools would frequently form part of an integrated software engineering environment.
